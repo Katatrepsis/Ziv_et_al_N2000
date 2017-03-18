@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+### Welcome to GitHub Pagesjjj
 
-You can use the [editor on GitHub](https://github.com/Katatrepsis/Ziv_et_al_N2000/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This Github Repository contains an archive of code for the manuscript _"A bird’s eye view over ecosystem services in Natura 2000 sites across Europe"_ (Ziv et al.), produced during the Facilitated Workshops on Ecosystem Services (FAWKES) II Workshop. This repository is designed to make the analysis and code within the paper as transparent and replicable as possible, such that all scripts work platform independent and all data are called from online sources. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Structure of the repository
+The key files for the analyis are as follows:
 
-### Markdown
+# 00_initialize_directories_and_scripts.R
+This script is basically the launchpad that will first define the working directories for scripts and data. New users should adjust the core working directory, and the script will organise files into that working directory or an accompanying temp directory. Two folders will be specified: path2temp (where the data is stored and outputs will be created) and path2wd (the working folder). Secondly, all other R files can be triggered from this section 00.2. So if you source 00 all other scripts will be run as well. Please be aware of run times for some of those scripts, which can be 20-30 minutes in some cases.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# 01_load_libraries_and_functions.R
+This script loads all libraries needed for subsequent analysis and automatically installs if libraries are missing.
 
-```markdown
-Syntax highlighted code block
+# 02_load_data.R
+Loads all data from the web, based on a permament link to the Natura2000 dataset and a CSV file produced during the FAWKES II workshop with an expert consensus mapping of Natura2000 threats to ecosystem services (see manuscript for details). Data will be downloaded only once to your path2temp.
 
-# Header 1
-## Header 2
-### Header 3
+# 03_IUCN_script.R
+This script uses the letsR package to download IUCN data for species that are focal species in the Natura2000 network. The data includes the IUCN "Population" field, which denotes the trends in the species.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Katatrepsis/Ziv_et_al_N2000/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# 04_core_analysis.R
+This final script conducts the bulk of the analysis on the data.I
