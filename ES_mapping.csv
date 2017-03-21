@@ -1,0 +1,414 @@
+ACT_Code,n,Crop,Fodder,Fibre,Livestock,Wild food,Aquaculture,Water,Regulating,Recreation,title
+A,0,,,,,,,,,,Agriculture
+A01,1,x,,,,,,,,,Cultivation
+A02,1,x,,,,,,,,,modification of cultivation practices
+A02.01,1,x,,,,,,,,,agricultural intensification
+A02.02,1,x,,,,,,,,,crop change
+A02.03,1,x,,,,,,,,,grassland removal for arable land
+A03,1,,x,,,,,,,,mowing / cutting of grassland
+A03.01,1,,x,,,,,,,,intensive mowing or intensification
+A03.02,1,,x,,,,,,,,non intensive mowing
+A03.03,0,,,,,,,,,,abandonment / lack of mowing
+A04,1,,,,x,,,,,,grazing
+A04.01,1,,,,x,,,,,,intensive grazing
+A04.01.01,1,,,,x,,,,,,intensive cattle grazing
+A04.01.02,1,,,,x,,,,,,intensive sheep grazing
+A04.01.03,1,,,,x,,,,,,intensive horse grazing
+A04.01.04,1,,,,x,,,,,,intensive goat grazing
+A04.01.05,1,,,,x,,,,,,intensive mixed animal grazing
+A04.02,1,,,,x,,,,,,non intensive grazing
+A04.02.01,1,,,,x,,,,,,non intensive cattle grazing
+A04.02.02,1,,,,x,,,,,,non intensive sheep grazing
+A04.02.03,1,,,,x,,,,,,non intensive horse grazing
+A04.02.04,1,,,,x,,,,,,non intensive goat grazing
+A04.02.05,1,,,,x,,,,,,non intensive mixed animal grazing
+A04.03,0,,,,,,,,,,"abandonment of pastoral systems, lack of grazing"
+A05,1,,,,x,,,,,,livestock farming and animal breeding (without grazing)
+A05.01,1,,,,x,,,,,,"Animal breeding,"
+A05.02,1,,,,x,,,,,,stock feeding
+A05.03,0,,,,,,,,,,Lack of animal breeding
+A06,1,x,,,,,,,,,annual and perennial non-timber crops
+A06.01,1,x,,,,,,,,,annual crops for food production
+A06.01.01,1,x,,,,,,,,,intensive annual crops for food production/ intensification
+A06.01.02,1,x,,,,,,,,,non- intensive annual crops for food production
+A06.02,1,x,,,,,,,,,perennial non-timber crops
+A06.02.01,1,x,,,,,,,,,intensive perennial non-timber crops/intensification
+A06.02.02,1,x,,,,,,,,,non-intensive perennial non-timber crops
+A06.03,0,,,,,,,,,,biofuel-production
+A06.04,0,,,,,,,,,,abandonment of crop production
+A07,3,x,x,,x,,,,,,"use of biocides, hormones and chemicals"
+A08,2,x,x,,,,,,,,Fertilisation
+A09,1,x,,,,,,,,,Irrigation
+A10,2,x,x,,,,,,,,Restructuring agricultural land holding
+A10.01,2,x,x,,,,,,,,removal of hedges and copses or scrub
+A10.02,2,x,x,,,,,,,,removal of stone walls and embankments
+A11,3,x,x,,x,,,,,,Agriculture activities not referred to above
+B,1,,,x,,,,,,,"Sylviculture, forestry"
+B01,2,,,x,,,,,x,,forest planting on open ground
+B01.01,2,,,x,,,,,x,,forest planting on open ground (native trees)
+B01.02,2,,,x,,,,,x,,artificial planting on open ground (non-native trees)
+B02,2,,,x,,,,,x,,Forest and Plantation management & use
+B02.01,2,,,x,,,,,x,,forest replanting
+B02.01.01,2,,,x,,,,,x,,forest replanting (native trees)
+B02.01.02,2,,,x,,,,,x,,forest replanting (non native trees)
+B02.02,1,,,x,,,,,,,forestry clearance
+B02.03,1,,,x,,,,,,,removal of forest undergrowth
+B02.04,1,,,x,,,,,,,removal of dead and dying trees
+B02.05,2,,,x,,,,,x,,non- intensive timber production (leaving dead wood/ old trees untouched)
+B02.06,1,,,x,,,,,,,thinning of tree layer
+B03,1,,,x,,,,,,,forest exploitation without replanting or natural regrowth
+B04,1,,,x,,,,,,,"use of biocides, hormones and chemicals (forestry)"
+B05,1,,,x,,,,,,,use of fertilizers (forestry)
+B06,1,,,,x,,,,,,grazing in forests/ woodland
+B07,1,,,x,,,,,,,Forestry activities not referred to above
+C,0,,,,,,,,,,"Mining, extraction of materials and energy production"
+C01,0,,,,,,,,,,Mining and quarrying
+C01.01,0,,,,,,,,,,Sand and gravel extraction
+C01.01.01,0,,,,,,,,,,sand and gravel quarries
+C01.01.02,0,,,,,,,,,,removal of beach materials
+C01.02,0,,,,,,,,,,Loam and clay pits
+C01.03,0,,,,,,,,,,Peat extraction
+C01.03.01,0,,,,,,,,,,hand cutting of peat
+C01.03.02,0,,,,,,,,,,mechanical removal of peat
+C01.04,0,,,,,,,,,,Mines
+C01.04.01,0,,,,,,,,,,open cast mining
+C01.04.02,0,,,,,,,,,,underground mining
+C01.05,0,,,,,,,,,,Salt works
+C01.05.01,0,,,,,,,,,,abandonment of saltpans (salinas)
+C01.05.02,0,,,,,,,,,,conversion of saltpans
+C01.06,0,,,,,,,,,,Geotechnical survey
+C01.07,0,,,,,,,,,,Mining and extraction activities not referred to above
+C02,0,,,,,,,,,,Exploration and extraction of oil or gas
+C02.01,0,,,,,,,,,,exploration drilling
+C02.02,0,,,,,,,,,,production drilling
+C02.03,0,,,,,,,,,,jack-up drilling rig
+C02.04,0,,,,,,,,,,semi-submersible rig
+C02.05,0,,,,,,,,,,drill ship
+C03,0,,,,,,,,,,Renewable abiotic energy use
+C03.01,0,,,,,,,,,,geothermal power production
+C03.02,0,,,,,,,,,,solar energy production
+C03.03,0,,,,,,,,,,wind energy production
+C03.04,0,,,,,,,,,,tidal energy production
+D,0,,,,,,,,,,Transportation and service corridors
+D01,0,,,,,,,,,,"Roads, paths and railroads"
+D01.01,0,,,,,,,,,,"paths, tracks, cycling tracks"
+D01.02,0,,,,,,,,,,"roads, motorways"
+D01.03,1,,,,,,,,,x,car parcs and parking areas
+D01.04,0,,,,,,,,,,"railway lines, TGV"
+D01.05,0,,,,,,,,,,"bridge, viaduct"
+D01.06,0,,,,,,,,,,tunnel
+D02,0,,,,,,,,,,Utility and service lines
+D02.01,0,,,,,,,,,,electricity and phone lines
+D02.01.01,0,,,,,,,,,,suspended electricity and phone lines
+D02.01.02,0,,,,,,,,,,underground/submerged electricity and phone lines
+D02.02,0,,,,,,,,,,pipe lines
+D02.03,0,,,,,,,,,,communication masts and antennas
+D02.09,0,,,,,,,,,,other forms of energy transport
+D03,0,,,,,,,,,,"shipping lanes, ports, marine constructions"
+D03.01,0,,,,,,,,,,port areas
+D03.01.01,0,,,,,,,,,,slipways
+D03.01.02,0,,,,,,,,,,piers / tourist harbours or recreational piers
+D03.01.03,0,,,,,,,,,,fishing harbours
+D03.01.04,0,,,,,,,,,,industrial ports
+D03.02,0,,,,,,,,,,Shipping lanes
+D03.02.01,0,,,,,,,,,,cargo lanes
+D03.02.02,0,,,,,,,,,,passenger ferry lanes (high speed)
+D03.03,0,,,,,,,,,,marine constructions
+D04,0,,,,,,,,,,"airports, flightpaths"
+D04.01,0,,,,,,,,,,airport
+D04.02,0,,,,,,,,,,"aerodrome, heliport"
+D04.03,0,,,,,,,,,,flight paths
+D05,0,,,,,,,,,,Improved access to site
+D06,0,,,,,,,,,,Other forms of transportation and communication
+E,0,,,,,,,,,,"Urbanisation, residential and commercial development"
+E01,0,,,,,,,,,,"Urbanised areas, human habitation"
+E01.01,0,,,,,,,,,,continuous urbanisation
+E01.02,0,,,,,,,,,,discontinuous urbanisation
+E01.03,0,,,,,,,,,,dispersed habitation
+E01.04,0,,,,,,,,,,other patterns of habitation
+E02,0,,,,,,,,,,Industrial or commercial areas
+E02.01,0,,,,,,,,,,factory
+E02.02,0,,,,,,,,,,industrial stockage
+E02.03,0,,,,,,,,,,other industrial / commercial area
+E03,0,,,,,,,,,,Discharges
+E03.01,0,,,,,,,,,,disposal of household / recreational facility waste
+E03.02,0,,,,,,,,,,disposal of industrial waste
+E03.03,0,,,,,,,,,,disposal of inert materials
+E03.04,0,,,,,,,,,,Other discharges
+E03.04.01,0,,,,,,,,,,costal sand suppletion/ beach nourishment
+E04,0,,,,,,,,,,"Structures, buildings in the landscape"
+E04.01,3,x,x,,x,,,,,,"Agricultural structures, buildings in the landscape"
+E04.02,0,,,,,,,,,,Military constructions and buildings in the landscape
+E05,0,,,,,,,,,,Storage of materials
+E06,0,,,,,,,,,,"Other urbanisation, industrial and similar activities"
+E06.01,0,,,,,,,,,,demolishment of buildings & human structures
+E06.02,0,,,,,,,,,,"reconstruction, renovation of buildings"
+F,0,,,,,,,,,,Biological resource use other than agriculture & forestry
+F01,1,,,,,,x,,,,Marine and Freshwater Aquaculture
+F01.01,1,,,,,,x,,,,"intensive fish farming, intensification"
+F01.02,1,,,,,,x,,,,suspension culture
+F01.03,1,,,,,,x,,,,bottom culture
+F02,2,,,,,x,,,,x,Fishing and harvesting aquatic ressources
+F02.01,1,,,,,x,,,,,Professional passive fishing
+F02.01.01,1,,,,,x,,,,,potting
+F02.01.02,1,,,,,x,,,,,netting
+F02.01.03,1,,,,,x,,,,,demersal longlining
+F02.01.04,1,,,,,x,,,,,pelagic longlining
+F02.02,1,,,,,x,,,,,Professional active fishing
+F02.02.01,1,,,,,x,,,,,benthic or demersal trawling
+F02.02.02,1,,,,,x,,,,,pelagic trawling
+F02.02.03,1,,,,,x,,,,,demersal seining
+F02.02.04,1,,,,,x,,,,,purse seining
+F02.02.05,1,,,,,x,,,,,benthic dredging
+F02.03,2,,,,,x,,,,x,Leisure fishing
+F02.03.01,2,,,,,x,,,,x,bait digging / collection
+F02.03.02,2,,,,,x,,,,x,pole fishing
+F02.03.03,2,,,,,x,,,,x,spear-fishing
+F03,2,,,,,x,,,,x,Hunting and collection of wild animals (terrestrial)
+F03.01,2,,,,,x,,,,x,Hunting
+F03.01.01,2,,,,,x,,,,x,damage caused by game (excess population density)
+F03.02,2,,,,,x,,,,x,Taking and removal of animals (terrestrial)
+F03.02.01,2,,,,,x,,,,x,"collection of animals (insects, reptiles, amphibians.....)"
+F03.02.02,2,,,,,x,,,,x,taking from nest (e.g. falcons)
+F03.02.03,2,,,,,x,,,,x,"trapping, poisoning, poaching"
+F03.02.04,2,,,,,x,,,,x,predator control
+F03.02.05,2,,,,,x,,,,x,accidential capture
+F03.02.09,2,,,,,x,,,,x,other forms of taking animals
+F04,3,,,x,,x,,,,x,"Taking / Removal of terrestrial plants, general"
+F04.01,2,,,,,x,,,,x,pillaging of floristic stations
+F04.02,2,,,,,x,,,,x,"collection (fungi, lichen, berries etc.)"
+F04.02.01,2,,,,,x,,,,x,hand raking
+F04.02.02,2,,,,,x,,,,x,hand collection
+F05,0,,,,,,,,,,Illegal taking/ removal of marine fauna
+F05.01,0,,,,,,,,,,dynamite
+F05.02,0,,,,,,,,,,date mussel-fishing
+F05.03,0,,,,,,,,,,poisons
+F05.04,0,,,,,,,,,,poaching
+F05.05,0,,,,,,,,,,shooting
+F05.06,0,,,,,,,,,,removal for collection purposes
+F05.07,0,,,,,,,,,,other (i.e. drift nets)
+F06,3,,,x,,x,,,,x,"Hunting, fishing or collecting activities not referred to above"
+F06.01,1,,,,,x,,,,,game/ bird breeding station
+G,0,,,,,,,,,,Human intrusions and disturbances
+G01,1,,,,,,,,,x,"Outdoor sports and leisure activities, recreational activities"
+G01.01,1,,,,,,,,,x,nautical sports
+G01.01.01,1,,,,,,,,,x,motorized nautical sports
+G01.01.02,1,,,,,,,,,x,non-motorized nautical sports
+G01.02,1,,,,,,,,,x,"walking, horseriding and non-motorised vehicles"
+G01.03,1,,,,,,,,,x,motorised vehicles
+G01.03.01,1,,,,,,,,,x,regular motorized driving
+G01.03.02,1,,,,,,,,,x,off-road motorized driving
+G01.04,1,,,,,,,,,x,"mountaineering, rock climbing, speleology"
+G01.04.01,1,,,,,,,,,x,mountaineering & rock climbing
+G01.04.02,1,,,,,,,,,x,speleology
+G01.04.03,1,,,,,,,,,x,recreational cave visits
+G01.05,1,,,,,,,,,x,"gliding, delta plane, paragliding, ballooning"
+G01.06,1,,,,,,,,,x,"skiing, off-piste"
+G01.07,1,,,,,,,,,x,"scubadiving, snorkelling"
+G01.08,1,,,,,,,,,x,other outdoor sports and leisure activities
+G02,1,,,,,,,,,x,Sport and leisure structures
+G02.01,0,,,,,,,,,,golf course
+G02.02,0,,,,,,,,,,skiing complex
+G02.03,0,,,,,,,,,,stadium
+G02.04,0,,,,,,,,,,"circuit, track"
+G02.05,0,,,,,,,,,,hippodrome
+G02.06,0,,,,,,,,,,attraction park
+G02.07,0,,,,,,,,,,sports pitch
+G02.08,1,,,,,,,,,x,camping and caravans
+G02.09,1,,,,,,,,,x,wildlife watching
+G02.10,0,,,,,,,,,,other sport / leisure complexes
+G03,0,,,,,,,,,,Interpretative centres
+G04,0,,,,,,,,,,Military use and civil unrest
+G04.01,0,,,,,,,,,,Military manouvres
+G04.02,0,,,,,,,,,,abandonment of military use
+G05,0,,,,,,,,,,Other human intrusions and disturbances
+G05.01,1,,,,,,,,,x,"Trampling, overuse"
+G05.02,1,,,,,,,,,x,shallow surface abrasion/ mechanical damage to seabed surface
+G05.03,1,,,,,,,,,x,penetration/ disturbance below surface of the seabed
+G05.04,1,,,,,,,,,x,Vandalism
+G05.05,1,,,,,,,,,x,intensive maintenance of public parcs /cleaning of beaches
+G05.06,1,,,,,,,,,x,"tree surgery, felling for public safety, removal of roadside trees"
+G05.07,0,,,,,,,,,,missing or wrongly directed conservation measures
+G05.08,1,,,,,,,,,x,closures of caves or galleries
+G05.09,1,,,,,,,,,x,"fences, fencing"
+G05.10,0,,,,,,,,,,overflying with aircrafts (agricultural)
+G05.11,1,,,,,,,,,x,death or injury by collision
+H,0,,,,,,,,,,Pollution
+H01,0,,,,,,,,,,"Pollution to surface waters (limnic & terrestrial, marine & brackish)"
+H01.01,0,,,,,,,,,,pollution to surface waters by industrial plants
+H01.02,0,,,,,,,,,,pollution to surface waters by storm overflows
+H01.03,0,,,,,,,,,,other point source pollution to surface water
+H01.04,0,,,,,,,,,,diffuse pollution to surface waters via strom overlows or urban run-off
+H01.05,4,x,x,x,x,,,,,,diffuse pollution to surface waters due to agricultural and forestry activities
+H01.06,0,,,,,,,,,,diffuse pollution to surface waters due to transport and infrastructure without connection to canalization/sweepers
+H01.07,0,,,,,,,,,,diffuse pollution to surface waters due to abandoned industrial sites
+H01.08,0,,,,,,,,,,diffuse pollution to surface waters due to household sewage and waste waters
+H01.09,0,,,,,,,,,,diffuse pollution to surface waters due to other sources not listed
+H02,0,,,,,,,,,,Pollution to groundwater (point sources and diffuse sources)
+H02.01,0,,,,,,,,,,groundwater pollution by leakages from contaminated sites
+H02.02,0,,,,,,,,,,groundwater pollution by leakages from waste disposal sites
+H02.03,0,,,,,,,,,,groundwater pollution associated with oil industry infrastructure
+H02.04,0,,,,,,,,,,groundwater pollution by mine water discharges
+H02.05,0,,,,,,,,,,groundwater pollution by discharge to ground such as disposal of contaminated water to soakaways
+H02.06,4,x,x,x,x,,,,,,diffuse groundwater pollution due to agricultural and forestry activities
+H02.07,0,,,,,,,,,,diffuse groundwater pollution due to non-sewered population
+H02.08,0,,,,,,,,,,diffuse groundwater pollution due to urban land use
+H03,0,,,,,,,,,,Marine water pollution
+H03.01,0,,,,,,,,,,oil spills in the sea
+H03.02,0,,,,,,,,,,toxic chemical discharge from material dumped at sea
+H03.02.01,0,,,,,,,,,,non-synthetic compound contamination
+H03.02.02,0,,,,,,,,,,synthetic compound contamination
+H03.02.03,0,,,,,,,,,,radionucleide contamination
+H03.02.04,0,,,,,,,,,,"introduction of other substances (e.g. liquid, gas)"
+H03.03,0,,,,,,,,,,"marine macro-pollution (i.e. plastic bags, styrofoam)"
+H04,0,,,,,,,,,,"Air pollution, air-borne pollutants"
+H04.01,0,,,,,,,,,,Acid rain
+H04.02,3,x,x,,x,,,,,,Nitrogen-input
+H04.03,0,,,,,,,,,,other air pollution
+H05,0,,,,,,,,,,Soil pollution and solid waste (excluding discharges)
+H05.01,0,,,,,,,,,,garbage and solid waste
+H06,0,,,,,,,,,,excess energy
+H06.01,0,,,,,,,,,,"Noise nuisance, noise pollution"
+H06.01.01,0,,,,,,,,,,point source or irregular noise pollution
+H06.01.02,0,,,,,,,,,,diffuse or permanent noise pollution
+H06.02,0,,,,,,,,,,Light pollution
+H06.03,0,,,,,,,,,,Thermal heating of water bodies
+H06.04,0,,,,,,,,,,Electromagnetic changes
+H06.05,0,,,,,,,,,,"Seismic exploration, explosions"
+H07,0,,,,,,,,,,Other forms of pollution
+I,0,,,,,,,,,,"Invasive, other problematic species and genes"
+I01,0,,,,,,,,,,invasive non-native species
+I02,0,,,,,,,,,,problematic native species
+I03,1,x,,,,,,,,,"introduced genetic material, GMO"
+I03.01,1,,,,x,,,,,,genetic pollution (animals)
+I03.02,1,x,,,,,,,,,genetic pollution (plants)
+J,0,,,,,,,,,,Natural System modifications
+J01,0,,,,,,,,,,fire and fire suppression
+J01.01,0,,,,,,,,,,burning down
+J01.02,0,,,,,,,,,,supression of natural fires
+J01.03,0,,,,,,,,,,lack of fires
+J02,0,,,,,,,,,,human induced changes in hydraulic conditions
+J02.01,0,,,,,,,,,,"Landfill, land reclamation and drying out, general"
+J02.01.01,0,,,,,,,,,,polderisation
+J02.01.02,0,,,,,,,,,,"reclamation of land from sea, estuary or marsh"
+J02.01.03,0,,,,,,,,,,"infilling of ditches, dykes, ponds, pools, marshes or pits"
+J02.01.04,2,x,x,,,,,,,,recultivation of mining areas
+J02.02,0,,,,,,,,,,Removal of sediments (mud...)
+J02.02.01,0,,,,,,,,,,dredging/ removal of limnic sediments
+J02.02.02,0,,,,,,,,,,estuarine and coastal dredging
+J02.03,0,,,,,,,,,,Canalisation & water deviation
+J02.03.01,0,,,,,,,,,,large scale water deviation
+J02.03.02,0,,,,,,,,,,canalisation
+J02.04,0,,,,,,,,,,Flooding modifications
+J02.04.01,0,,,,,,,,,,flooding
+J02.04.02,0,,,,,,,,,,lack of flooding
+J02.05,0,,,,,,,,,,"Modification of hydrographic functioning, general"
+J02.05.01,0,,,,,,,,,,modification of water flow (tidal & marine currents)
+J02.05.02,0,,,,,,,,,,modifying structures of inland water courses
+J02.05.03,0,,,,,,,,,,mofification of standing water bodies
+J02.05.04,0,,,,,,,,,,reservoirs
+J02.05.05,0,,,,,,,,,,"small hydropower projects, weirs"
+J02.05.06,0,,,,,,,,,,wave exposure changes
+J02.06,1,,,,,,,x,,,Water abstractions from surface waters
+J02.06.01,2,x,x,,,,,,,,surface water abstractions for agriculture
+J02.06.02,1,,,,,,,x,,,surface water abstractions for public water supply
+J02.06.03,1,,,,,,,x,,,surface water abstractions by manufacturing industry
+J02.06.04,1,,,,,,,x,,,surface water abstractions for the production of electricity (cooling)
+J02.06.05,1,,,,,,,x,,,surface water abstractions by fish farms
+J02.06.06,1,,,,,,,x,,,surface water abstractions by hydro-energy
+J02.06.07,1,,,,,,,x,,,surface water abstractions by quarries/ open cast (coal) sites
+J02.06.08,1,,,,,,,x,,,surface water abstractions for navigation
+J02.06.09,1,,,,,,,x,,,surface water abstractions for water transfer
+J02.06.10,1,,,,,,,x,,,other major surface water abstractions
+J02.07,1,,,,,,,x,,,Water abstractions from groundwater
+J02.07.01,2,x,x,,,,,,,,groundwater abstractions for agriculture
+J02.07.02,1,,,,,,,x,,,groundwater abstractions for public water supply
+J02.07.03,1,,,,,,,x,,,groundwater abstractions by industry
+J02.07.04,1,,,,,,,x,,,groundwater abstractions by quarries/open cast (coal)sites
+J02.07.05,1,,,,,,,x,,,other major groundwater abstractions from groundwater for agriculture
+J02.08,0,,,,,,,,,,Raising the groundwater table /artificial recharge of goundwater
+J02.08.01,0,,,,,,,,,,discharges to groundwater for artificial recharge purposes
+J02.08.02,0,,,,,,,,,,returns of groundwater to GWB from which it was abstracted
+J02.08.03,0,,,,,,,,,,mine water rebound
+J02.08.04,0,,,,,,,,,,other major groundwater recharge
+J02.09.,0,,,,,,,,,,Saltwater intrusion of groundwater
+J02.09.01,0,,,,,,,,,,saltwater intrusion
+J02.09.02,0,,,,,,,,,,other intrusion
+J02.10,0,,,,,,,,,,management of aquatic and bank vegetation for drainage purposes
+J02.11,0,,,,,,,,,,"Siltation rate changes, dumping, depositing of dredged deposits"
+J02.11.01,0,,,,,,,,,,"Dumping, depositing of dredged deposits"
+J02.11.02,0,,,,,,,,,,Other siltation rate changes
+J02.12,0,,,,,,,,,,"Dykes, embankments, artificial beaches, general"
+J02.12.01,0,,,,,,,,,,"sea defense or coast protection works, tidal barrages"
+J02.12.02,0,,,,,,,,,,dykes and flooding defense in inland water systems
+J02.13,0,,,,,,,,,,Abandonment of management of water bodies
+J02.14,0,,,,,,,,,,Altered water quality due anthropogenic changes in salinity
+J02.15,0,,,,,,,,,,Other human induced changes in hydraulic conditions
+J03,0,,,,,,,,,,Other ecosystem modifications
+J03.01,0,,,,,,,,,,reduction or loss of specific habitat features
+J03.01.01,1,,,,,x,,,,,reduction of prey availability (inluding carcasses)
+J03.02,0,,,,,,,,,,anthropogenic reduction of habitat connectivity
+J03.02.01,0,,,,,,,,,,reduction in migration/ migration barriers
+J03.02.02,0,,,,,,,,,,reduction in dispersal
+J03.02.03,0,,,,,,,,,,reduction in genetic exchange
+J03.03,0,,,,,,,,,,"reduction, lack or prevention of erosion"
+J03.04,0,,,,,,,,,,applied (industrial) destructive research
+K,0,,,,,,,,,,Natural biotic and abiotic processes (without catastrophes)
+K01,0,,,,,,,,,,abiotic (slow) natural processes
+K01.01,0,,,,,,,,,,Erosion
+K01.02,0,,,,,,,,,,Silting up
+K01.03,0,,,,,,,,,,Drying out
+K01.04,0,,,,,,,,,,Submersion
+K01.05,0,,,,,,,,,,Soil salinization
+K02,0,,,,,,,,,,"Biocenotic evolution, succession"
+K02.01,0,,,,,,,,,,species composition change (succession)
+K02.02,0,,,,,,,,,,accumulation of organic material
+K02.03,0,,,,,,,,,,eutrophication (natural)
+K02.04,0,,,,,,,,,,acidification (natural)
+K03,0,,,,,,,,,,Interspecific faunal relations
+K03.01,0,,,,,,,,,,competition (fauna)
+K03.02,0,,,,,,,,,,parasitism (fauna)
+K03.03,2,,,,x,,x,,,,introduction of disease (microbial pathogens)
+K03.04,0,,,,,,,,,,predation
+K03.05,0,,,,,,,,,,antagonism arising from introduction of species
+K03.06,1,,,,x,,,,,,antagonism with domestic animals
+K03.07,0,,,,,,,,,,other forms of interspecific faunal competition
+K04,0,,,,,,,,,,Interspecific floral relations
+K04.01,0,,,,,,,,,,competition (flora)
+K04.02,0,,,,,,,,,,parasitism (flora)
+K04.03,2,x,,x,,,,,,,introduction of disease (microbial pathogens)
+K04.04,0,,,,,,,,,,lack of pollinating agents
+K04.05,3,,,,x,x,,,,x,damage by herbivores (including game species)
+K05,0,,,,,,,,,,reduced fecundity/ genetic depression
+K05.01,0,,,,,,,,,,reduced fecundity/ genetic depression in animals (inbreeding)
+K05.02,0,,,,,,,,,,reduced fecundity/ genetic depression in plants (incl. endogamy)
+K06,0,,,,,,,,,,other forms or mixed forms of interspecific floral competition
+L,0,,,,,,,,,,"Geological events, natural catastrophes"
+L01,0,,,,,,,,,,volcanic activity
+L02,0,,,,,,,,,,"tidal wave, tsunamis"
+L03,0,,,,,,,,,,earthquake
+L04,0,,,,,,,,,,avalanche
+L05,0,,,,,,,,,,"collapse of terrain, landslide"
+L06,0,,,,,,,,,,undergound collapses
+L07,0,,,,,,,,,,"storm, cyclone"
+L08,0,,,,,,,,,,inundation (natural processes)
+L09,0,,,,,,,,,,fire (natural)
+L10,0,,,,,,,,,,other natural catastrophes
+M,0,,,,,,,,,,Climate change
+M01,0,,,,,,,,,,Changes in abiotic conditions
+M01.01,0,,,,,,,,,,temperature changes (e.g. rise of temperature & extremes)
+M01.02,0,,,,,,,,,,droughts and less precipitations
+M01.03,0,,,,,,,,,,flooding and rising precipitations
+M01.04,0,,,,,,,,,,pH-changes
+M01.05,0,,,,,,,,,,"water flow changes (limnic, tidal and oceanic)"
+M01.06,0,,,,,,,,,,wave exposure changes
+M01.07,0,,,,,,,,,,sea-level changes
+M02,0,,,,,,,,,,Changes in biotic conditions
+M02.01,0,,,,,,,,,,habitat shifting and alteration
+M02.02,0,,,,,,,,,,desynchronisation of processes
+M02.03,0,,,,,,,,,,decline or extinction of species
+M02.04,0,,,,,,,,,,migration of species (natural newcomers)
+X,0,,,,,,,,,,No threats or pressures
+XO,0,,,,,,,,,,
+XE,0,,,,,,,,,,No threats or pressures
+U,0,,,,,,,,,,migration of species (natural newcomers)
