@@ -25,7 +25,7 @@ if (file.exists("PublicNatura2000End2015_csv.zip")==FALSE){
 
 ### Load ecosystem service mapping table
 setwd(path2wd %+% "/") 
-MappingData <- read.csv("ES_mapping.csv",header=TRUE)
+MappingData <- read.csv("ES_translation.csv",header=TRUE)
 MappingData <- as.data.frame(MappingData) 
 ### check variable types 
 str(MappingData)
