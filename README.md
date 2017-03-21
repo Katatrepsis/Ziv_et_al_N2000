@@ -17,4 +17,6 @@ Loads all data from the web, based on a permament link to the Natura2000 dataset
 This script uses the letsR package to download IUCN data for species that are focal species in the Natura2000 network. The data includes the IUCN "Population" field, which denotes the trends in the species.
 
 ### 04_core_analysis.R
-This final script conducts the bulk of the analysis on the data.I
+This final script conducts the bulk of the analysis on the data. This includes the analysis of the number of positive and negative services at each site and the "NetES" variable that describes the relative presence of positive and negative services. The NetES analysis is further broken down by dominant habitat types and biogeographical regions to give a novel insight into how services vary across the N2000 network. Finally, there are some tests of the relationship between the presence of positive and negative ES and the conservation value of the site (both in terms of the value to the species there, derived from the standard data form, and the IUCN trends of the species for which those sites are important, from script 03).
+
+This page will be updated to reflect future changes in the paper and to link to any other resources that become available after publication.
