@@ -35,7 +35,6 @@ if (file.exists(path2temp) & file.exists(path2wd)){
   path2wd <- file.path(workingDir)
 } else {
   dir.create(path2temp)
-  dir.create(path2wd)
   path2temp <- file.path(workingDir, tempDir)
   path2wd <- file.path(workingDir)
 }
