@@ -47,7 +47,7 @@ if (file.exists(path2temp) & file.exists(path2wd)){
 "%+%" <- function(x,y)paste(x,y,sep="")
 
 ### load libraries, functions and google sheets 
-ptm <- proc.time(); source(path2wd %+% "/01_load_libraries_and_functions.R"); proc.time() - ptm
-ptm <- proc.time(); source(path2wd %+% "/02_load_data.R"); proc.time() - ptm 
-ptm <- proc.time(); source(path2wd %+% "/03_IUCN_analysis.R"); proc.time() - ptm
-ptm <- proc.time(); source(path2wd %+% "/04_core_analysis.R"); proc.time() - ptm
+ptm <- proc.time(); source(path2wd %+% "/01_load_libraries_and_functions.R"); proc.time() - ptm # ca. 30 seconds
+ptm <- proc.time(); source(path2wd %+% "/02_load_data.R"); proc.time() - ptm # ca. 100 seconds
+ptm <- proc.time(); source(path2wd %+% "/03_IUCN_analysis.R"); proc.time() - ptm # 300 seconds
+ptm <- proc.time(); source(path2wd %+% "/04_core_analysis.R"); proc.time() - ptm # 190 seconds

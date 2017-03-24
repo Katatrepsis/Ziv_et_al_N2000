@@ -138,7 +138,6 @@ proc.time() - ptm
 
 # Final "net" value for all ESS across each site
 NetESS<-rowSums(ServiceBySite[,c(28:36)])
-NetESSwt<-rowSums(ServiceBySite[,c(28:34)])/7+ServiceBySite[,35]+ServiceBySite[,36]
 ServiceBySite<-cbind(ServiceBySite,NetESS,NetESSwt)
 
 # Add Bioregion (note that sometimes the BIOREGION$SITECODE field is called "i..SITECODE" which
@@ -202,10 +201,6 @@ barplot(t(Alpine_BarData/rowSums(Alpine_BarData)),las=2, legend=F, main="(F) Alp
 
 dev.off()
 
-# Export data
-BiogeogOrigin<-cbind(rbind(All_BarData,Atlantic_BarData,Continental_BarData,Mediterranean_BarData,Boreal_BarData,Alpine_BarData),
-      rep(c("All","Atlantic","Continental","Mediterranean","Boreal","Alpine"),each=9))
-write.table(BiogeogOrigin,"BiogeogOrigin.txt")
 
 ############################################################################
 ### 08.5 ESS displayed by core habitat
@@ -244,9 +239,6 @@ colnames(PosNegDF)<-c("Pos","Prop Pos","Neg","Prop Neg","Total")
 # Find the average number of ESS per dominant habitat
 aggregate(rowSums(AnyMention), list(DomHabData$DomHab), mean)
 
-# Find the proportion of SPAs in each dominant habitat that mention each ESS
-xtabs(DomHabData$DomHab~AnyMention[,1])
-ESSByHab<-aggregate(AnyMention, list(DomHabData$DomHab), mean)
 
 # Tables of each habitat, with positive, negative, and both
 # First, N01
